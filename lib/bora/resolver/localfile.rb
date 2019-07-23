@@ -2,7 +2,7 @@ require 'bora/cfn/stack'
 
 class Bora
   module Resolver
-    class File
+    class Localfile
       FileDoesntExist = Class.new(StandardError)
       InvalidParameter = Class.new(StandardError)
 
